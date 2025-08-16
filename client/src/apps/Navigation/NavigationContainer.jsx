@@ -5,8 +5,8 @@ import { Button, Drawer, Layout, Menu } from 'antd';
 import { useAppContext } from '@/context/appContext';
 
 import useLanguage from '@/locale/useLanguage';
-import logoIcon from '@/style/images/logo-icon.svg';
-import logoText from '@/style/images/logo-text.svg';
+// import logoIcon from '@/style/images/logo-icon.svg';
+// import logoText from '@/style/images/logo-text.svg';
 
 import useResponsive from '@/hooks/useResponsive';
 
@@ -52,7 +52,7 @@ function Sidebar({ collapsible, isMobile = false }) {
     {
       key: 'dashboard',
       icon: <DashboardOutlined />,
-      label: <Link to={'/'}>{translate('dashboard')}</Link>,
+      label: <Link to={'/dashboard'}>{translate('dashboard')}</Link>,
     },
     {
       key: 'customer',
@@ -149,20 +149,38 @@ function Sidebar({ collapsible, isMobile = false }) {
         onClick={() => navigate('/')}
         style={{
           cursor: 'pointer',
+          padding: '16px',
+          display: 'flex',
+          alignItems: 'center',
+          borderBottom: '1px solid #f0f0f0',
+          marginBottom: '16px'
         }}
       >
-        <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} />
-
+        <div
+          style={{
+            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            borderRadius: '8px',
+            padding: '8px 12px',
+            color: 'white',
+            fontWeight: 'bold',
+            fontSize: showLogoApp ? '14px' : '18px',
+            minWidth: showLogoApp ? '30px' : 'auto',
+            textAlign: 'center'
+          }}
+        >
+          {showLogoApp ? 'N' : 'NEXUS'}
+        </div>
         {!showLogoApp && (
-          <img
-            src={logoText}
-            alt="Logo"
+          <span
             style={{
-              marginTop: '3px',
-              marginLeft: '10px',
-              height: '38px',
+              marginLeft: '12px',
+              fontSize: '16px',
+              fontWeight: '600',
+              color: '#1f1f1f'
             }}
-          />
+          >
+            Business Suite
+          </span>
         )}
       </div>
       <Menu

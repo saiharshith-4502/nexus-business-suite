@@ -22,7 +22,7 @@ import useResponsive from '@/hooks/useResponsive';
 
 import storePersist from '@/redux/storePersist';
 
-export default function ErpCrmApp() {
+export default function NexusBusinessApp() {
   const { Content } = Layout;
 
   // const { state: stateApp, appContextAction } = useAppContext();
@@ -43,7 +43,7 @@ export default function ErpCrmApp() {
 
   // useEffect(() => {
   //   const { loadDefaultLang } = storePersist.get('firstVisit');
-  //   if (appSettings.idurar_app_language && !loadDefaultLang) {
+  //   if (appSettings.nexus_app_language && !loadDefaultLang) {
   //     window.localStorage.setItem('firstVisit', JSON.stringify({ loadDefaultLang: true }));
   //   }
   // }, [appSettings]);

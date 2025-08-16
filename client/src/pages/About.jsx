@@ -7,26 +7,23 @@ const About = () => {
   return (
     <Result
       status="info"
-      title={'IDURAR'}
-      subTitle={translate('Do you need help on customize of this app')}
+      title={'Nexus Business Suite'}
+      subTitle={translate('Comprehensive Business Management Platform')}
       extra={
         <>
           <p>
-            Website : <a href="https://www.idurarapp.com">www.idurarapp.com</a>{' '}
+            A modern solution for managing your business operations, customer relationships, and analytics.
           </p>
           <p>
-            GitHub :{' '}
-            <a href="https://github.com/idurar/idurar-erp-crm">
-              https://github.com/idurar/idurar-erp-crm
-            </a>
+            Built with React, Node.js, and MongoDB for optimal performance and scalability.
           </p>
           <Button
             type="primary"
             onClick={() => {
-              window.open(`https://www.idurarapp.com/contact-us/`);
+              window.location.href = '/dashboard';
             }}
           >
-            {translate('Contact us')}
+            {translate('Go to Dashboard')}
           </Button>
         </>
       }

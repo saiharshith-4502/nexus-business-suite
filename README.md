@@ -1,6 +1,6 @@
 # Nexus Business Suite
 
-> A modern, open-source ERP & CRM platform designed to streamline business operations with powerful analytics and intuitive management tools.
+> A comprehensive business management platform designed to streamline operations, manage customer relationships, and provide powerful analytics for modern businesses.
 
 ## 🎯 What Problem Does It Solve?
 
@@ -124,27 +124,19 @@ npm run build      # Build for production
 npm run preview    # Preview production build
 ```
 
-## 🤝 Contributing
+## 🚀 Getting Started
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md).
+This is a private business application. For access or inquiries, please contact the developer directly.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## 📞 Contact & Support
 
-## 📄 License
+**Developer:** Sai Harshith  
+**Email:** saiharshithkaranam@gmail.com  
+**GitHub:** [saiharshith-4502](https://github.com/saiharshith-4502)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-- 🐛 **Issues:** [GitHub Issues](https://github.com/saiharshith-4502/nexus-business-suite/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/saiharshith-4502/nexus-business-suite/discussions)
-- 📧 **Email:** saiharshithkaranam@gmail.com
+For business inquiries, feature requests, or technical support, please reach out via email.
 
 ---
 
-⭐ **Star this repo if you find it helpful!**  
-**Built with ❤️ by [Sai Harshith](https://github.com/saiharshith-4502)**
+**© 2024 Nexus Business Suite - Private Application**  
+**Developed by [Sai Harshith](https://github.com/saiharshith-4502)**

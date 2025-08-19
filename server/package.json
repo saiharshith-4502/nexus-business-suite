@@ -49,8 +49,8 @@
     "@": "src"
   },
   "main": "server.js",
-  "author": "Your Name",
-  "email": "yourname@example.com",
+  "author": "Sai Harshith",
+  "email": "saiharshithkaranam@gmail.com",
   "license": "MIT",
   "keywords": ["business-management", "crm", "accounting", "invoicing", "analytics"]
 }

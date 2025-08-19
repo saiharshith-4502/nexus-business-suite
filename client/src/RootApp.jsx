@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import store from '@/redux/store';
 import PageLoader from '@/components/PageLoader';
 
-const NexusBusinessOs = lazy(() => import('./apps/IdurarOs'));
+const NexusBusinessOs = lazy(() => import('./apps/NexusBusinessOs'));
 
 export default function RoutApp() {
   return (

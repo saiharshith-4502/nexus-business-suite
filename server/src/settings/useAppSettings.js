@@ -1,7 +1,7 @@
 const useAppSettings = () => {
   let settings = {};
-  settings['idurar_app_email'] = 'noreply@idurarapp.com';
-  settings['idurar_base_url'] = 'https://cloud.idurarapp.com';
+  settings['nexus_app_email'] = 'noreply@nexus-business-suite.com';
+  settings['nexus_base_url'] = 'https://nexus-business-suite.com';
   return settings;
 };
 

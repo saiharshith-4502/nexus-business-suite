@@ -7,7 +7,7 @@
     "npm": "10.2.4"
   },
   "type": "module",
-  "author": "Your Name",
+  "author": "Sai Harshith",
   "license": "MIT",
   "dependencies": {
     "@ant-design/icons": "^5.3.0",
